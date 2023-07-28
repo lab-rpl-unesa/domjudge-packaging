@@ -1,9 +1,0 @@
-/var/log/domjudge/domserver/*.log {
-        su root www-data
-	weekly
-	missingok
-	rotate 6
-	compress
-	delaycompress
-	notifempty
-}
